@@ -2,6 +2,7 @@
 
 Esse repositório tem como objetivo armazenar as resoluções das listas de exercícios passadas em aula ou disponibilizadas no Moodle. Criei não somente para ter um lugar para guardá-los, mas para também compartilhar com outros alunos que possam estar com dificuldades em resolver os exercícios.
 
+## Estrutura do projeto:
 ```
 ├── LICENSE
 ├── README.md
