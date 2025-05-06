@@ -4,33 +4,33 @@
 
 #include <stdio.h>
 
-int M[3][3];
-
 int main() {
-    // Leitura da matriz
-    printf("Digite os elementos da matriz 3x3:\n");
-    for (int i = 0; i < 3; i++)
-        for (int j = 0; j < 3; j++)
-            scanf("%d", &M[i][j]);
+    int A[5], B[5], C[10];
 
-    // Exibição da matriz
-    printf("\nMatriz:\n");
-    for (int i = 0; i < 3; i++) {
-        for (int j = 0; j < 3; j++)
-            printf("%5d", M[i][j]);
-        printf("\n");
+    // Leitura dos vetores A e B
+    printf("Digite os elementos do vetor A (5 elementos):\n");
+    for (int i = 0; i < 5; i++) {
+        scanf("%d", &A[i]);
     }
 
-    // Cálculo do determinante
-    int det = M[0][0] * M[1][1] * M[2][2]
-            + M[0][1] * M[1][2] * M[2][0]
-            + M[0][2] * M[1][0] * M[2][1]
-            - M[0][2] * M[1][1] * M[2][0]
-            - M[0][1] * M[1][0] * M[2][2]
-            - M[0][0] * M[1][2] * M[2][1];
+    printf("Digite os elementos do vetor B (5 elementos):\n");
+    for (int i = 0; i < 5; i++) {
+        scanf("%d", &B[i]);
+    }
 
-    // Exibição do resultado
-    printf("\nDeterminante da matriz: %d\n", det);
+    // Intercalando os elementos de A e B em C
+    int k = 0;
+    for (int i = 0; i < 5; i++) {
+        C[k++] = A[i];  // Adiciona A[i] em C
+        C[k++] = B[i];  // Adiciona B[i] em C
+    }
+
+    // Exibição do vetor C
+    printf("Vetor C intercalado:\n");
+    for (int i = 0; i < 10; i++) {
+        printf("%d ", C[i]);
+    }
+    printf("\n");
 
     return 0;
 }
