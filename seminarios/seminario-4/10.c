@@ -1,6 +1,6 @@
 /*
  *
- * 9. Escreva uma função que receba uma matriz de inteiros de ordem m x n e
+ * 10. Escreva uma função que receba uma matriz de inteiros de ordem m x n e
  * preencha um vetor com a soma dos elementos de cada linha. Depois, exiba o
  * vetor resultante.
  *

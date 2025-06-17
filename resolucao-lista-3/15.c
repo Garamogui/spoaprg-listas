@@ -32,7 +32,6 @@ int main() {
 
   if (delta < 0) {
     printf("Não existem raízes reais.\n");
-
   } else if (delta > 0) {
      x1 = (-b + sqrt(delta)) / (2 * a);
      x2 = (-b - sqrt(delta)) / (2 * a);
