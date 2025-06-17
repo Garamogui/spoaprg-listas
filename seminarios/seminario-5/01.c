@@ -1,5 +1,3 @@
-QUESTÃO 8 – Troca de valores com ponteiros
-
 #include <stdio.h>
 
 void trocar(int *a, int *b) {

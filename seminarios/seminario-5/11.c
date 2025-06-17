@@ -1,23 +1,30 @@
-QUESTÃO 11 – Imprimir vetor com ponteiros
+// Exercício 11 - Média das linhas de uma matriz 4x4
 
 #include <stdio.h>
 
-void imprimir(int *vetor, int tamanho) {
-    for (int i = 0; i < tamanho; i++) {
-        printf("Elemento %d: %d\n", i, *(vetor + i));
+void mediaLinhas(int *m, float *medias) {
+    for (int i = 0; i < 4; i++) {
+        int soma = 0;
+        for (int j = 0; j < 4; j++) {
+            soma += *(m + i * 4 + j);
+        }
+        medias[i] = soma / 4.0;
     }
 }
 
 int main() {
-    int v[5];
-    int *pv = v;
+    int m[4][4];
+    float medias[4];
 
-    printf("Digite 5 valores para o vetor:\n");
-    for (int i = 0; i < 5; i++) {
-        scanf("%d", pv + i);
+    for (int i = 0; i < 4; i++)
+        for (int j = 0; j < 4; j++)
+            scanf("%d", &m[i][j]);
+
+    mediaLinhas((int *)m, medias);
+
+    for (int i = 0; i < 4; i++) {
+        printf("Média da linha %d = %.2f\n", i, medias[i]);
     }
-
-    imprimir(pv, 5);
 
     return 0;
 }

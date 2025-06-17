@@ -1,4 +1,4 @@
-/*14. Crie um programa que contenha uma função que permita passar por parâmetro dois números inteiros  A e B. A função deverá calcular a soma entre estes dois números e armazenar o resultado na variável A. A Essa função não deverá possuir retorno. mas deverá modificar o valor da primeiro parâmatro. Ao final, imprima A e B na função main.*/
+/*6. Crie um programa que contenha uma função que permita passar por parâmetro dois números inteiros  A e B. A função deverá calcular a soma entre estes dois números e armazenar o resultado na variável A. A Essa função não deverá possuir retorno. mas deverá modificar o valor da primeiro parâmatro. Ao final, imprima A e B na função main.*/
 
 
 #include <stdio.h>

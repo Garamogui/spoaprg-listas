@@ -1,5 +1,3 @@
-QUESTÃO 12 – Dobro, triplo e quádruplo usando ponteiros
-
 #include <stdio.h>
 
 int main() {

@@ -1,5 +1,3 @@
-QUESTÃO 10 – Preencher vetor com valor via ponteiro
-
 #include <stdio.h>
 
 void preencher(int *vetor, int valor, int tamanho) {

@@ -1,4 +1,4 @@
-/*17. Escreva uma função que retorna o maior valor de um array de tamanho N.
+/*9. Escreva uma função que retorna o maior valor de um array de tamanho N.
  * Escreva um programa que leia N valores inteiros, imprima o array com k
  * elementos por linha, e o maior elemento. O valor de k também deve ser
  * fornecido pelo usuário.*/
@@ -6,7 +6,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void print_k_by_line(int *array, int n, int k) {
+void print_k_by_line(int* array, int n, int k) {
+  printf("array: %p\n", array);
+
   int i;
   for (i = 0; i < n; i++) {
     printf("%d ", *(array + i));
@@ -15,7 +17,7 @@ void print_k_by_line(int *array, int n, int k) {
     }
   }
   if (n % k != 0) {
-    printf("\n"); // Nova linha se não terminar com uma linha completa
+    printf("\n");
   }
 }
 

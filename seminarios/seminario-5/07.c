@@ -1,4 +1,4 @@
-/*15 - Crie uma função que receba dois parâmetros: um array e um valor do*/
+/*7 - Crie uma função que receba dois parâmetros: um array e um valor do*/
 /*mesmo tipo do array. A função deverá preencher os elementos de array com*/
 /*esse valor. Não utilize índices, para artimética de ponteiros para percorrer*/
 /*o array.*/
