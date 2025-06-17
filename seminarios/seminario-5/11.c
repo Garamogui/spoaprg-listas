@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+// Exercício 11 - Média das linhas de uma matriz 4x4
+
+>>>>>>> 5d55c315c8ed82e8cf72d1928f7e41cacc0625b0
 #include <stdio.h>
 
 void mediaLinhas(int *m, float *medias) {
